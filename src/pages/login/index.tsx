@@ -1,13 +1,15 @@
 import React from "react";
 import { AppForm } from "../../components/form";
 import { loginFields } from "./loginFields";
+import "./styles.scss";
 
 const Login: React.FC = () => {
   return (
-    <>
-      <h2>Login Page</h2>
-      <AppForm formFields={loginFields} />
-    </>
+    <div className="login-page">
+      <div className="login-page-container">
+        <AppForm formFields={loginFields} />
+      </div>
+    </div>
   );
 };
 

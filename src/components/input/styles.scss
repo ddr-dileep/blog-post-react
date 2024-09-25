@@ -1,0 +1,28 @@
+.main-app-input {
+  padding: 7px 0;
+
+  &-label {
+    display: block;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  input {
+    font-size: 16px;
+    padding: 4px 10px;
+    border: 1px solid #5e22975e;
+    border-radius: 9px;
+    width: 100%;
+    outline: none;
+    margin-top: 3px;
+
+    :active {
+      border: none;
+    }
+
+    &:hover {
+      border: 1px solid #3a0063;
+      box-shadow: 0px 3px 6px rgba(203, 152, 236, 0.219);
+    }
+  }
+}

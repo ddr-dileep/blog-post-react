@@ -1,3 +1,5 @@
+import "./styles.scss";
+
 export const AppInput = ({
   className,
   onChange,
@@ -16,9 +18,13 @@ export const AppInput = ({
   autoComplete = "off",
 }: IAppInput) => {
   return (
-    <div className={`${className}`}>
+    <div className={`main-app-input ${className}`}>
       {label && (
-        <label id={`${name}-label`} htmlFor={name}>
+        <label
+          className={`main-app-input-label`}
+          id={`${name}-${label}-label`}
+          htmlFor={name}
+        >
           {label}
         </label>
       )}

@@ -2,6 +2,7 @@ export const loginFields = [
   {
     name: "email",
     type: "email",
+    label: "Email",
     placeholder: "Enter your email",
     disabled: false,
     autoFocus: true,
@@ -9,6 +10,7 @@ export const loginFields = [
   {
     name: "password",
     type: "password",
+    label: "Password",
     placeholder: "Enter your password",
     disabled: false,
     autoComplete: "current-password",
